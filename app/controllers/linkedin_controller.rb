@@ -18,9 +18,9 @@ class LinkedinController < ApplicationController
 
   def linkedin_profile
     @basic_profile = get_basic_profile
-    @full_profile = get_full_profile
-    @positions = get_positions
-    @educations = get_educations
+    # @full_profile = get_full_profile
+    # @positions = get_positions
+    # @educations = get_educations
   end
 
   def oauth_account
